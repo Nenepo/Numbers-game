@@ -24,6 +24,7 @@ Join me in my weekly challenge for the entire month! Let's learn and code togeth
 ## TIPS
 
 To build this game, we recommend using the following resources:
+- How to use git and github [https://medium.com/@nafisafaruna/git-simplified-the-fundamentals-for-version-control-novices-cdd54c9ea67f ]
 - JavaScript documentation: [https://developer.mozilla.org/en-US/docs/Web/JavaScript]
   - It's essential to use official documentation to understand JavaScript functions and methods thoroughly. This will help you understand how to think about the logic and what to use for certain actions
 - W3Schools JavaScript Tutorial: [https://www.w3schools.com/js/]
