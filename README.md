@@ -19,7 +19,7 @@ The Numbers Game concept is found in various real-world applications, including:
 
 ## WEEKLY CODING CHALLENGE
 
-Join us in our weekly Numbers Game challenge for the entire month! Every week, we'll release a new twist or feature to keep things exciting. Let's learn and code together!
+Join me in my weekly challenge for the entire month! Let's learn and code together!
 
 ## TIPS
 
