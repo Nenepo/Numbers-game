@@ -42,3 +42,5 @@ Remember to:
 
 
 Let's code along and have fun learning together!
+
+Wrote this README using this blog as a guide [https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/]
