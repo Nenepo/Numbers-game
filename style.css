@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   
+}
+img{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+h1 ,h2{
+   font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #fff;
+}
+p{
+  font-family :Arial, Helvetica, sans-serif;
+  color: #d6d4d4;
+}
+.section{
+  padding: 200px;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.header-text{
+  font-size: 50px;
+  margin-top: 30px;
+}
+.paragraph-text{
+  font-size: 13px;
+  margin-top: 10px;
+}
+#result{
+  margin: 20px 0;
+  font-size: 16px;
+}
+#rounds{
+  margin: 20px 0;
+}
+#prevInput{
+  color: white;
+  margin: 10px 0;
+}
+#pink-bg{
+  visibility: hidden;
+}
+#red-bg{
+  visibility: hidden;
+}
+.input{
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.input p  {
+ margin: 0 10px;
+  font-size: 14px;
+}
+ button{
+  margin: 0 10px;
+  border-radius: 50%;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  color: black;
+  font-weight: 900;
+}
+button:hover{
+  background-color: rgb(77, 120, 199);
+}
+ button:active{
+  transform: translateY(4px);
+}
+.input input{
+  padding: 8px;
+
+}
+.input input{
+  outline: none;
+}
+.input input::placeholder{
+color: rgb(36, 35, 35);
+font-size: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  img{
+    opacity: 0.95;
+  }
+  .section{
+    padding: 150px 0;
+  
+  }
+  .header-text{
+    font-size: 50px;
+    margin-top: 40px;
+  }
+  .paragraph-text{
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .input{
+    margin-top: 30px;
+  }
+ 
+}

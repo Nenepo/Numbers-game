@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick a Number</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration.jpg" alt="game-background" id="blue-bg">
+  <img src="futuristic-background-with-colorful-glowing-abstract-neon-lights.jpg" alt="game-background" id="red-bg">
+  <img src="modern-futuristic-sci-fi-background.jpg" alt="game-background" id="pink-bg">
+  <div class="section">
+    <h1 class="header-text">Guess The Number</h1>
+    <p class="paragraph-text">We have selected a random number from 1 - 100. See if you can guess it. You have only 10 rounds</p>
+    
+    <h2 id="result"></h2>
+    <div class="input">
+      <p>Guess Your Number </p>
+      <input type="text" placeholder="0"  id="userInput">
+      <button id="submit-btn" >Submit</button>
+    </div>
+    <h2 id="rounds"></h2>
+    <div id="prevInput"></div>
+    
+    <button id="reset">Reset Game</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
